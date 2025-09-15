@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observatoire du territoire Parc National Iriomote-Ishigaki</title>
+  <style>
+    body {
+      font-family: Calibri, sans-serif;
+      background-color: #E1D9C7; /* beige clair */
+      color: #0B3910; /* texte principal */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #014A38; /* vert foncé */
+      color: #E1D9C7;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 900px;
+      margin: 2rem auto;
+      gap: 2rem;
+    }
+
+    img {
+      margin: 20px auto;
+      display: block;
+      max-width: 600px; /* Agrandi */
+      width: 100%;
+      border: 5px solid #6E1919;
+      border-radius: 12px;
+    }
+	
+    .card {
+      width: 100%;
+      background-color: #0B3910; /* vert très foncé */
+      color: #E1D9C7;
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+    .card:hover {
+      background-color: #014A38; /* vert foncé secondaire */
+      transform: translateY(-3px);
+    }
+    .card span {
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: block;
+    }
+    .card img {
+      margin-top: 0.5rem;
+      border-radius: 8px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background-color: #6E1919; /* rouge foncé */
+      color: #E1D9C7;
+      text-align: center;
+      padding: 1rem;
+      border-top: 4px solid #014A38;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Observatoire du territore Parc National d'Iriomote-Ishigaki</h1>
+    <p>sous Arcgis Online</p>
+  </header>
+  
+  
+  <img src="documents_images/PNR.png" alt="Capture PNR">
+  
+  <main>
+    <a href="https://misakiuozumi.wixsite.com/iriomote-ishigaki-mu" target="_blank" class="card">
+      <span>1 - Jusqu'en mai 2026</span>
+      Cartes interactives disponibles sous ArcGIS 
+    </a>
+
+    <a href="capture.html" target="_blank" class="card">
+      <span>2 - Après mai 2026</span>
+      Cartes interactives non disponibles, capture d'écran fournie
+    </a>
+  </main>
+  
+  <footer>
+    © 2025 Misaki UOZUMI — Dernière mise à jour : Le 15 septembre 2025
+  </footer>
+
+  
+</body>
+</html>
